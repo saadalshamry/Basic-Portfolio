@@ -78,16 +78,64 @@ nav a:hover {
    margin: 0 10px;
 }
 
+/* cotact form */
+.container.contact form {
+    width: 100%;
+}
+.container.contact input {
+    width:100%;
+    border: none;
+    border:1px solid #dddddd;
+    height: 30px;
+}
+.container.contact input:focus , .container.contact textarea:focus {
+    outline: 1px solid #000;
+}
 
+.container.contact textarea {
+    width: 100%;
+    height: 200px;
+    border:1px solid #dddddd;
+    resize: none;
+}
+.container.contact button {
+    width: 150px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin: 10px 0;
+    border: none;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
+/* portfolio */
+.project {
+    width: 200px;
+    height: 260px;
+    border: 1px solid #ddd;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.project img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.project span {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 25px;
+}
 /*  footer  */
 footer, .push {
     height: 80px;
@@ -96,8 +144,10 @@ footer, .push {
 }
 footer {
     background-color: #666666;
+    border-top: 5px solid #4aaaa5;
 }
 footer p {
     text-align: center;
     color: #fff;
 }
+
